@@ -1,0 +1,960 @@
+.wrapForm  {
+     width:  400px;
+ }
+.wrapForm .mainForm {
+     -webkit-border-radius:  5px;
+    -khtml-border-radius:  5px;
+    -moz-border-radius:  5px;
+    -ms-border-radius:  5px;
+    -o-border-radius:  5px;
+    border-radius:  5px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #97c2c4;
+     -webkit-box-shadow:  0px 2px 5px 0px #696b6d;
+    -khtml-box-shadow:  0px 2px 5px 0px #696b6d;
+    -moz-box-shadow:  0px 2px 5px 0px #696b6d;
+    -ms-box-shadow:  0px 2px 5px 0px #696b6d;
+    -o-box-shadow:  0px 2px 5px 0px #696b6d;
+    box-shadow:  0px 2px 5px 0px #696b6d;
+     padding:  18px 25px 30px 25px;
+     margin:  0px 0px 0px 0px;
+     position:  relative;
+}
+.wrapForm .wrapFooter  {
+    font-size:  11px;
+     color:  #666666;
+}
+.wrapForm .wrapFooter .copyrights  {
+    margin-top:  12px;
+}
+.wrapForm .wrapFooter .copyrights a  {
+     color:  #666;
+     text-decoration:  none;
+ }
+.wrapForm .wrapFooter .copyrights a:hover  {
+     text-decoration:  underline;
+ }
+.user_formish  {
+    color:  #405c60;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  normal;
+    font-size:  14px;
+    background:  url('//formdesigner.ru/userfiles/gallery/backgrounds/3_bg.png') repeat 0 0 #ffffff;
+}
+.user_formish h3  {
+    color:  #006094;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  normal;
+    font-size:  18px;
+    background:  transparent;
+    border:  none;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+    text-align:  center;
+    padding:  5px 15px 5px 15px;
+    margin:  0px 0px 18px 0px;
+    line-height:  1;
+}
+.user_formish div.page {
+    display:  none;
+}
+.user_formish div.page.current {
+    display:  block;
+}
+.user_formish label.label  {
+    display:  block;
+    color:  #405c60;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  normal;
+    font-size:  14px;
+    text-align:  left;
+    word-wrap:  break-word;
+    margin:  0 0 3px;
+}
+.user_formish div.shift.error  {
+    background:  #FFE6CC;
+    -webkit-border-radius:  0px;
+    -khtml-border-radius:  0px;
+    -moz-border-radius:  0px;
+    -ms-border-radius:  0px;
+    -o-border-radius:  0px;
+    border-radius:  0px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #C43B1D;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+}
+.user_formish.slice div.shift.error  {
+    padding-left:  5px;
+    padding-right:  5px;
+    padding-bottom:  3px;
+}
+.user_formish div.shift.error .error  {
+    color:  #ff0000;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  italic;
+    font-size:  15px;
+}
+.user_formish .shift .info  {
+    color:  #516163;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  10px;
+    margin-bottom:  6px;
+}
+.user_formish .shift.error .info  {
+    color:  #516163;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  12px;
+}
+.user_formish.slice .shift .info  {
+    padding-left:  40%;
+    margin-top:  -7px;
+    margin-bottom:  0px;
+    clear:  left;
+}
+.user_formish .shift.type-video .unit  {
+    overflow:  hidden;
+}
+.user_formish.slice .shift.type-username .info, .user_formish.slice .shift.type-socbuttons .info, .user_formish.slice .shift.type-image .info  {
+    padding-left:  0;
+}
+.user_formish div.shift.type-html  {
+    padding-top:  0;
+}
+.user_formish div.shift.type-html .unit  {
+    margin:  0px 0px 10px 0px;
+}
+.user_formish hr  {
+    color:  #405c60;
+}
+.user_formish label.label span  {
+    color:  #f00;
+    font-weight:  bold;
+}
+.user_formish label.label.error span  {
+    color:  #ff0000;
+    font-weight:  bold;
+}
+.user_formish input.text,  .user_formish textarea,  .user_formish select,  .user_formish .type-file .unit .file-fd,  .user_formish .type-autocomplete .select2-container--default .select2-selection--single,  .user_formish .type-autocomplete .select2-container--default .select2-selection--multiple,  .user_formish .type-autocomplete .select2-container--default.select2-container--focus .select2-selection--multiple  {
+    color:  #1d3c41;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  12px;
+    -webkit-border-radius:  3px;
+    -khtml-border-radius:  3px;
+    -moz-border-radius:  3px;
+    -ms-border-radius:  3px;
+    -o-border-radius:  3px;
+    border-radius:  3px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #b2b2b2;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+    background:  #FFFFFF;
+    padding:  5px 5px 5px 5px;
+    transition:  all 0.2s linear 0s;
+}
+.user_formish input.text:focus,  .user_formish textarea:focus,  .user_formish select:focus  {
+    outline:  none;
+    color:  #1d3c41;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  12px;
+    -webkit-border-radius:  3px;
+    -khtml-border-radius:  3px;
+    -moz-border-radius:  3px;
+    -ms-border-radius:  3px;
+    -o-border-radius:  3px;
+    border-radius:  3px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #b2b2b2;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+    background:  #FFFFFF;
+}
+.user_formish select  {
+     width:  100%;
+ }
+.user_formish .type-file .file-fd input  {
+    cursor:  pointer;
+    height:  auto;
+    line-height:  1em;
+    height:  100%;
+    margin:  0;
+    opacity:  0;
+    padding:  0;
+    position:  absolute;
+    right:  0;
+    top:  0;
+    width:  100%;
+}
+.user_formish .type-file .unit .file-fd  {
+    width:  75%;
+    padding-right:  80px !important;
+    position:  relative;
+}
+.user_formish .type-file .unit .file-fd .file-name  {
+    white-space:  nowrap;
+    text-overflow:  ellipsis;
+    overflow:  hidden;
+}
+.user_formish .type-file .unit .file-fd .file-browse  {
+    position:  absolute;
+    top:  0;
+    right:  0;
+    padding:  5px 5px 5px 5px;
+    color:  #1d3c41;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  12px;
+    border-left:  1px solid #b2b2b2;
+    -webkit-border-radius:  0 3px 3px 0;
+    -khtml-border-radius:  0 3px 3px 0;
+    -moz-border-radius:  0 3px 3px 0;
+    -ms-border-radius:  0 3px 3px 0;
+    -o-border-radius:  0 3px 3px 0;
+    border-radius:  0 3px 3px 0;
+    background:  -webkit-gradient(linear,  left top,  left bottom,  from(#fff),  to(#e8e8e8));
+    background:  -webkit-linear-gradient(top,  #fff,  #e8e8e8);
+    background:  -moz-linear-gradient(top,  #fff,  #e8e8e8);
+    background:  -ms-linear-gradient(top,  #fff,  #e8e8e8);
+    background:  -o-linear-gradient(top,  #fff,  #e8e8e8);
+    background:  linear-gradient(top,  #fff,  #e8e8e8);
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+}
+.user_formish .type-file .file-fd:hover .file-browse  {
+    background:  #f1f1f1;
+}
+.user_formish .type-file .file-fd:active .file-browse  {
+    background:  #f5f5f5;
+    box-shadow:  inset 1px 1px 3px #DDD;
+}
+.user_formish textarea {
+    outline:  none;
+     resize:  none;
+     overflow:  auto;
+}
+.user_formish table.username {
+    width:  100%;
+    margin:  0 0 10px;
+    padding:  0;
+}
+.user_formish table.username td {
+    text-align:  left;
+    padding-right:  1%;
+}
+.user_formish table.username td.last, .user_formish table.username td:last-child  {
+    padding-right:  0;
+}
+.user_formish table.username input.text {
+    width:  100%;
+    min-width:  0;
+}
+.user_formish .unit  {
+    position:  relative;
+    margin:  0px 0px 10px 0px;
+}
+.user_formish.slice .type-select .unit  {
+     margin-left:  0;
+ }
+.user_formish .unit.noMar  {
+     margin:  0;
+ }
+.user_formish .unit.value  {
+     overflow:  hidden;
+ }
+.user_formish .shift.type-video .unit .empty {
+    width:  420px;
+    height:  315px;
+    background:  url("/themes/classic/images/ico-play.png") no-repeat center center #333;
+    display:  inline-block;
+}
+.user_formish .unit.value input.text, .user_formish .unit.value textarea, .user_formish .unit.value select, .user_formish .unit.value .selectbox  {
+    float:  left;
+    display:  block;
+    width:  70px;
+    min-width:  70px;
+    margin-right:  5px;
+}
+.user_formish .unit.value .units  {
+    float:  left;
+    display:  block;
+    width:  32px;
+    font-size:  20px;
+    padding:  6px 0 0 0;
+}
+.user_formish .checkbox,  .user_formish .radio  {
+    overflow:  hidden;
+    margin:  0px 0px 10px 0px;
+     margin-bottom:  3px;
+}
+.user_formish .checkbox input,  .user_formish .radio input  {
+    float:  left;
+    position:  relative;
+    top:  2px;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+    margin:  0;
+}
+.user_formish .checkbox .other input,  .user_formish .radio .other input  {
+    float:  none;
+    margin-top:  -10px;
+}
+.user_formish .checkbox label,  .user_formish .radio label  {
+    padding:  0 0 0 7px;
+    color:  #405c60;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  normal;
+    font-size:  14px;
+}
+.user_formish .section  {
+     overflow:  hidden;
+ }
+.user_formish .section .shift  {
+     float:  left;
+ }
+.user_formish.slice .section .shift  {
+     clear:  none;
+ }
+.user_formish .section.columns-1 .shift  {
+     width:  auto;
+     float:  none;
+}
+.user_formish .section.columns-2 .shift  {
+     width:  50%;
+ }
+.user_formish .section.columns-2 .shift:nth-child(2n+1)  {
+     clear:  both;
+ }
+.user_formish .section.columns-3 .shift  {
+     width:  33.33333%;
+ }
+.user_formish .section.columns-3 .shift:nth-child(3n+1)  {
+     clear:  both;
+ }
+.user_formish .section.columns-4 .shift  {
+     width:  25%;
+ }
+.user_formish .section.columns-4 .shift:nth-child(4n+1)  {
+     clear:  both;
+ }
+.user_formish .shift .description  {
+    color:  #405c60;
+    margin-bottom:  10px;
+    overflow:  hidden;
+}
+.user_formish .shift .description table  {
+    border-collapse:  collapse;
+}
+.user_formish .shift .description table thead td, .user_formish .shift .description table th  {
+    background:  url("/themes/classic/images/bg-grad-bright-small-2.png") repeat-x scroll left bottom #FFFFFF;
+}
+.user_formish .shift .description table td,  .description table th  {
+    border:  1px solid #CCCCCC;
+    font-size:  12px;
+    padding:  6px 12px;
+    text-align:  left;
+}
+.user_formish .shift .image  {
+     overflow:  hidden;
+     margin:  15px 0;
+     text-align:  center;
+ }
+.user_formish .shift.type-image .image  {
+    margin:  0px 0px 10px 0px;
+}
+.user_formish .shift  {
+    padding:  5px 10px 0px;
+    margin:  0;
+    position:  relative;
+}
+.user_formish .shift.hide  {
+     display:  none;
+ }
+.user_formish.slice .shift.error  {
+    padding-top:  18px;
+}
+.user_formish .shift.slice  {
+    overflow:  hidden;
+    clear:  both;
+}
+.user_formish .shift.slice label  {
+    float:  left;
+    width:  35%;
+}
+.user_formish .shift.slice .rc  {
+    overflow:  visible;
+    padding-left:  40%;
+}
+.user_formish .shift.slice .rc label  {
+    float:  none;
+    width:  auto;
+    white-space:  nowrap;
+}
+.user_formish .shift.inline .checkbox .unit, .user_formish .shift.inline .radio .unit  {
+    float:  left;
+}
+.user_formish.slice .shift .checkbox .unit, .user_formish.slice .shift .radio .unit  {
+    margin-top:  8px;
+}
+.user_formish.slice .shift.inline .checkbox .unit, .user_formish.slice .shift.inline .radio .unit  {
+    margin-top:  0px;
+}
+.user_formish.slice .shift  {
+    overflow:  hidden;
+    clear:  both;
+    padding:  9px 2px 1px 1px;
+}
+.user_formish.slice .shift.type-select  {
+    padding-right:  1px;
+}
+.user_formish.slice .shift label  {
+    float:  left;
+    width:  40%;
+    word-wrap:  break-word;
+}
+.user_formish.slice .shift .rc  {
+    overflow:  visible;
+    padding-left:  40%;
+    margin-top:  -8px;
+    margin-bottom:  10px;
+}
+.user_formish.slice .shift.inline  {
+    margin-bottom:  10px;
+}
+.user_formish.slice .shift .rc label  {
+    float:  none;
+    width:  auto;
+    white-space:  nowrap;
+}
+.user_formish.slice .shift.nohover  {
+    overflow:  visible;
+}
+.user_formish.slice .shift .has_sb  {
+    height:  0;
+    line-height:  0;
+}
+.user_formish .shift.btn,  .user_formish .shift.type-button  {
+    text-align:  center;
+    margin:  0px 0px 0px 0px;
+}
+.user_formish .submit  {
+    color:  #ffffff;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  normal;
+    font-size:  20px;
+    background:  #055ea6;
+    -webkit-border-radius:  3px;
+    -khtml-border-radius:  3px;
+    -moz-border-radius:  3px;
+    -ms-border-radius:  3px;
+    -o-border-radius:  3px;
+    border-radius:  3px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #1c6c7a;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+     width:  250px;
+    height:  40px;
+    padding:  5px 14px 6px 14px;
+    cursor:  pointer;
+    margin-right:  5px;
+}
+.user_formish .submit:hover  {
+    color:  #ffffff;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  normal;
+    font-size:  20px;
+    background:  #4b77c4;
+    -webkit-border-radius:  3px;
+    -khtml-border-radius:  3px;
+    -moz-border-radius:  3px;
+    -ms-border-radius:  3px;
+    -o-border-radius:  3px;
+    border-radius:  3px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #1c6c7a;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+}
+.user_formish .submit.hide  {
+    display:  none;
+}
+.user_formish .errorSummary  {
+    color:  #ff0000;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  italic;
+    font-size:  15px;
+    background:  #FFE6CC;
+    -webkit-border-radius:  0px;
+    -khtml-border-radius:  0px;
+    -moz-border-radius:  0px;
+    -ms-border-radius:  0px;
+    -o-border-radius:  0px;
+    border-radius:  0px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #C43B1D;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+}
+.user_formish .errorSummary ul {
+    margin:  0;
+    padding:  5px 20px;
+}
+.user_formish .success_message  {
+    color:  #235685;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  16px;
+    background:  #DEEEFA;
+    -webkit-border-radius:  0px;
+    -khtml-border-radius:  0px;
+    -moz-border-radius:  0px;
+    -ms-border-radius:  0px;
+    -o-border-radius:  0px;
+    border-radius:  0px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #AFD3F2;
+    -webkit-box-shadow:  none;
+    -khtml-box-shadow:  none;
+    -moz-box-shadow:  none;
+    -ms-box-shadow:  none;
+    -o-box-shadow:  none;
+    box-shadow:  none;
+    padding:  10px 10px 10px 10px;
+    margin:  10px 0px 10px 0px;
+    text-align:  left;
+}
+.user_formish .success_message p  {
+    margin:  5px 0;
+}
+.social_buttons a {
+    display:  inline-block;
+    height:  32px;
+    margin:  0 6px 6px 0;
+    padding:  0;
+    vertical-align:  bottom;
+    width:  32px;
+}
+.social_buttons a.fb {
+     background:  url("/themes/classic/images/social_buttons/icons.png") no-repeat 0 0;
+}
+.social_buttons a.gp {
+     background:  url("/themes/classic/images/social_buttons/icons.png") no-repeat -32px 0;
+}
+.social_buttons a.tw {
+     background:  url("/themes/classic/images/social_buttons/icons.png") no-repeat -128px 0;
+}
+.social_buttons a.ok {
+     background:  url("/themes/classic/images/social_buttons/icons.png") no-repeat -96px 0;
+}
+.social_buttons a.vk {
+     background:  url("/themes/classic/images/social_buttons/icons.png") no-repeat -160px 0;
+}
+ul.rating  {
+    list-style:  none outside none;
+    margin-bottom:  15px;
+    padding:  0;
+}
+ul.rating li  {
+    background:  none repeat scroll 0 0 transparent;
+}
+ul.rating li div.rating-row  {
+    background:  none repeat scroll 0 0 #CCCCCC;
+    padding:  5px;
+    border-radius:  12px;
+}
+ul.rating li div.rating-row div.rating-result  {
+    background:  none repeat scroll 0 0 #00AAED;
+    height:  10px;
+    border-radius:  12px;
+}
+.user_formish .captchaWrap  {
+    overflow:  hidden;
+    margin-bottom:  5px;
+}
+.user_formish.slice .shift .captchaWrap.rc  {
+    overflow:  hidden;
+}
+.user_formish .captchaWrap .unit {
+    float:  left;
+    margin:  5px 0;
+}
+.user_formish .captchaWrap .captcha {
+    cursor:  pointer;
+}
+.user_formish .captchaWrap .captcha .fld  {
+    background:  #405c60;
+}
+.user_formish hr  {
+    margin:  10px 0 18px;
+}
+.select2-hidden-accessible  {
+     display:  none;
+ }
+.type-autocomplete .select2-container--default .select2-selection--single, .type-autocomplete .select2-container--default .select2-selection--multiple, .type-autocomplete .select2-container--default.select2-container--focus .select2-selection--multiple  {
+    height:  auto;
+}
+.type-autocomplete .unit .select2-container--default .select2-selection--multiple  {
+    padding:  4px 5px 4px 5px;
+ }
+.type-autocomplete .select2-container--default .select2-selection--single .select2-selection__rendered, .type-autocomplete .select2-container--default .select2-selection--multiple .select2-selection__rendered  {
+    line-height:  normal;
+    padding-left:  0;
+    color:  #1d3c41;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  12px;
+}
+.type-autocomplete .select2-container--default .select2-selection--single .select2-selection__rendered  {
+    min-height:  15px;
+}
+.type-autocomplete .select2-container .select2-search--inline .select2-search__field  {
+    margin-top:  0;
+    padding:  0;
+}
+.type-autocomplete .select2-container--default .select2-selection--multiple .select2-selection__choice  {
+    margin-top:  0;
+}
+.type-autocomplete .select2-container--default .select2-selection--single .select2-selection__arrow  {
+    top:  50%;
+    margin-top:  -13px;
+}
+body .user_formish .select2-dropdown  {
+    color:  #1d3c41;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  12px;
+    -webkit-border-radius:  3px;
+    -khtml-border-radius:  3px;
+    -moz-border-radius:  3px;
+    -ms-border-radius:  3px;
+    -o-border-radius:  3px;
+    border-radius:  3px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #b2b2b2;
+}
+body .user_formish .select2-container--default .select2-search--dropdown .select2-search__field  {
+    -webkit-border-radius:  3px;
+    -khtml-border-radius:  3px;
+    -moz-border-radius:  3px;
+    -ms-border-radius:  3px;
+    -o-border-radius:  3px;
+    border-radius:  3px;
+    border-width:  1px;
+    border-style:  solid;
+    border-color:  #b2b2b2;
+    color:  #1d3c41;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  normal;
+    font-style:  normal;
+    font-size:  12px;
+}
+.countdownHolder  {
+    font:  40px/1.5 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: -3px;
+    overflow:  hidden;
+    display:  inline-block;
+}
+.countdownHolder .dash  {
+     float:  left;
+ }
+.countdownHolder .dash.hide  {
+     display:  none;
+ }
+.countdownHolder .dash .title  {
+     font-size:  0.3em;
+     letter-spacing:  0;
+ }
+.countdownHolder .dash .position  {
+    display:  inline-block;
+    height:  1.6em;
+    overflow:  hidden;
+    position:  relative;
+    width:  1.05em;
+}
+.countdownHolder .dash .position .digit {
+    position: absolute;
+    display: block;
+    width: 1em;
+    background-color: #444;
+    border-radius: 0.2em;
+    text-align: center;
+    color: #fff;
+    letter-spacing: -1px;
+}
+.countdownHolder .dash .position .digit.static {
+    box-shadow: 1px 1px 1px rgba(4,  4,  4,  0.35);
+}
+.countdownHolder .countDiv  {
+    width: 16px;
+    height: 1.6em;
+    position: relative;
+    float:  left;
+}
+.countdownHolder .countDiv:before, .countdownHolder .countDiv:after  {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #444;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -3px;
+    top: 0.5em;
+    box-shadow: 1px 1px 1px rgba(4,  4,  4,  0.5);
+    content: '';
+}
+.countdownHolder .countDiv:after  {
+     top: 0.9em;
+ }
+.user_formish div.shift.error  {
+    margin:  7px -1px;
+    padding-bottom:  5px;
+}
+.user_formish input.text,  .user_formish textarea,  .user_formish select, .user_formish .type-file .unit, .user_formish .type-file .unit .file-fd, .user_formish .section .shift  {
+    -webkit-box-sizing:  border-box;
+    -moz-box-sizing:  border-box;
+    box-sizing:  border-box;
+}
+.user_formish .shift.inline .checkbox .unit, .user_formish .shift.inline .radio .unit  {
+    margin:  0px 7px 5px 1px;
+}
+.user_formish .shift .checkbox .unit, .user_formish .shift .radio .unit  {
+    margin:  0px 7px 5px 1px;
+}
+.user_formish .errorSummary  {
+    margin:  0 0 20px;
+    padding:  5px;
+}
+.user_formish .captchaWrap .captcha {
+    margin:  10px 0;
+}
+@media screen and (max-width: 556px)  {
+    .wrapForm, .user_formish input.text,  .user_formish textarea,  .user_formish .type-select .unit .arrow,  .user_formish .type-file .unit .file-fd,  .user_formish .type-username .username, .user_formish .type-autocomplete .select2-container  {
+    width:  100% !important;
+}
+.user_formish .section.columns-1 .shift, .user_formish .section.columns-2 .shift, .user_formish .section.columns-3 .shift, .user_formish .section.columns-4 .shift  {
+     width:  auto;
+    float:  none;
+}
+}
+.overlay  {
+    background:  #fff;
+    bottom:  0;
+    display:  none;
+    left:  0;
+    opacity:  0.5;
+    filter:  alpha(Opacity=50);
+    position:  fixed;
+    right:  0;
+    top:  0;
+    z-index:  5;
+}
+
+.mainForm .progress  {
+    
+	background:  #fff;
+    
+	display:  none;
+    
+	position:  absolute;
+     top:  50%;
+     left:  0;
+    right:  0;
+    z-index:  10;
+}
+
+.mainForm .progress .bar  {
+    animation:  1s linear 0s normal none infinite animate-bg;
+    background-color:  #00AAED;
+    background-image:  linear-gradient(135deg,  rgba(255,  255,  255,  0.05) 25%,  transparent 25%,  transparent 50%,  rgba(255,  255,  255,  0.05) 50%,  rgba(255,  255,  255,  0.05) 75%,  transparent 75%,  transparent);
+    background-size:  35px 35px;
+    min-height:  17px;
+    width:  100%;
+    color:  #fff;
+    font-size:  14px;
+     line-height:  1.2em;
+    text-shadow:  0 1px 0 rgba(0,  0,  0,  0.5);
+    text-align:  center;
+    padding:  1px 0;
+}
+.mainForm.processing .progress,  .mainForm.processing .overlay  {
+     display:  block;
+ }
+@keyframes animate-bg  {
+    from  {
+     background-position:  0 0;
+ }
+to  {
+     background-position:  35px 0;
+ }
+}
+@-webkit-keyframes animate-bg  {
+    from  {
+     background-position:  0 0;
+ }
+to  {
+     background-position:  35px 0;
+ }
+}
+@-moz-keyframes animate-bg  {
+    from  {
+     background-position:  0 0;
+ }
+to  {
+     background-position:  35px 0;
+ }
+}
+table.fileList  {
+    border-collapse:  collapse;
+    width:  100%;
+}
+table.fileList td {
+    word-break:  break-all;
+}
+table.fileList th  {
+    background:  url("/themes/classic/images/bg-grad-bright-small-2.png") repeat-x scroll left bottom #FFFFFF;
+}
+table.fileList td,  table.fileList th  {
+    border:  1px solid #CCCCCC;
+    color:  #405c60;
+    font-family:  'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    font-weight:  bold;
+    font-style:  normal;
+    font-size:  14px;
+    padding:  6px 12px;
+    text-align:  left;
+}
+.user_formish input.text,  .user_formish textarea,  .user_formish select  {
+    -webkit-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.6) inset;
+    -khtml-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.6) inset;
+    -moz-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.6) inset;
+    -ms-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.6) inset;
+    -o-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.6) inset;
+    box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.6) inset;
+    transition:  all 0.2s linear 0s;
+}
+.wrapForm .user_formish input:active:not([type="checkbox"]),  .wrapForm .user_formish input:focus:not([type="checkbox"]), .wrapForm .user_formish textarea:active, .wrapForm .user_formish textarea:focus {
+    background:  none repeat scroll 0 0 rgba(238,  236,  240,  0.2);
+    border:  1px solid rgba(91,  90,  90,  0.7);
+    -webkit-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.9) inset;
+    -khtml-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.9) inset;
+    -moz-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.9) inset;
+    -ms-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.9) inset;
+    -o-box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.9) inset;
+    box-shadow:  0 1px 4px 0 rgba(168,  168,  168,  0.9) inset;
+}
+.wrapForm .mainForm  {
+    border:  1px solid rgba(147,  184,  189,  0.8);
+    -webkit-box-shadow:  0 2px 5px rgba(105,  108,  109,  0.7),  0 0 8px 5px rgba(208,  223,  226,  0.4) inset;
+    -khtml-box-shadow:  0 2px 5px rgba(105,  108,  109,  0.7),  0 0 8px 5px rgba(208,  223,  226,  0.4) inset;
+    -moz-box-shadow:  0 2px 5px rgba(105,  108,  109,  0.7),  0 0 8px 5px rgba(208,  223,  226,  0.4) inset;
+    -ms-box-shadow:  0 2px 5px rgba(105,  108,  109,  0.7),  0 0 8px 5px rgba(208,  223,  226,  0.4) inset;
+    -o-box-shadow:  0 2px 5px rgba(105,  108,  109,  0.7),  0 0 8px 5px rgba(208,  223,  226,  0.4) inset;
+    box-shadow:  0 2px 5px rgba(105,  108,  109,  0.7),  0 0 8px 5px rgba(208,  223,  226,  0.4) inset;
+    line-height:  1em;
+}
+.user_formish h3:after  {
+    background:  -moz-linear-gradient(left, rgba(147, 184, 189, 0) 0%,  rgba(147, 184, 189, 0.8) 20%,  rgba(147, 184, 189, 1) 53%,  rgba(147, 184, 189, 0.8) 79%,  rgba(147, 184, 189, 0) 100%);
+    background:  -webkit-gradient(linear,  left top,  right top,  color-stop(0%, rgba(147, 184, 189, 0)),  color-stop(20%, rgba(147, 184, 189, 0.8)),  color-stop(53%, rgba(147, 184, 189, 1)),  color-stop(79%, rgba(147, 184, 189, 0.8)),  color-stop(100%, rgba(147, 184, 189, 0)));
+    background:  -webkit-linear-gradient(left, rgba(147, 184, 189, 0) 0%, rgba(147, 184, 189, 0.8) 20%, rgba(147, 184, 189, 1) 53%, rgba(147, 184, 189, 0.8) 79%, rgba(147, 184, 189, 0) 100%);
+    background:  -o-linear-gradient(left, rgba(147, 184, 189, 0) 0%, rgba(147, 184, 189, 0.8) 20%, rgba(147, 184, 189, 1) 53%, rgba(147, 184, 189, 0.8) 79%, rgba(147, 184, 189, 0) 100%);
+    background:  -ms-linear-gradient(left, rgba(147, 184, 189, 0) 0%, rgba(147, 184, 189, 0.8) 20%, rgba(147, 184, 189, 1) 53%, rgba(147, 184, 189, 0.8) 79%, rgba(147, 184, 189, 0) 100%);
+    background:  linear-gradient(to right, rgba(147, 184, 189, 0) 0%, rgba(147, 184, 189, 0.8) 20%, rgba(147, 184, 189, 1) 53%, rgba(147, 184, 189, 0.8) 79%, rgba(147, 184, 189, 0) 100%);
+    filter:  progid:DXImageTransform.Microsoft.gradient( startColorstr='#0093b8bd',  endColorstr='#0093b8bd', GradientType=1 );
+    content:  " ";
+    display:  block;
+    height:  2px;
+    margin-top:  10px;
+    width:  100%;
+}
+.user_formish .submit, .user_formish .submit:hover {
+    -webkit-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.07) inset,  0 0 0 3px rgb(254,  254,  254),  0 5px 3px 3px rgb(210,  210,  210);
+    -khtml-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.07) inset,  0 0 0 3px rgb(254,  254,  254),  0 5px 3px 3px rgb(210,  210,  210);
+    -moz-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.07) inset,  0 0 0 3px rgb(254,  254,  254),  0 5px 3px 3px rgb(210,  210,  210);
+    -ms-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.07) inset,  0 0 0 3px rgb(254,  254,  254),  0 5px 3px 3px rgb(210,  210,  210);
+    -o-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.07) inset,  0 0 0 3px rgb(254,  254,  254),  0 5px 3px 3px rgb(210,  210,  210);
+    box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.07) inset,  0 0 0 3px rgb(254,  254,  254),  0 5px 3px 3px rgb(210,  210,  210);
+    text-shadow:  0 1px 1px rgba(0,  0,  0,  0.5);
+    transition:  all 0.2s linear 0s;
+}
+.user_formish .submit:active,  .user_formish .submit:focus  {
+    background:  none repeat scroll 0 0 rgb(40,  137,  154);
+    border:  1px solid rgb(12,  76,  87);
+    -webkit-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.2) inset;
+    -khtml-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.2) inset;
+    -moz-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.2) inset;
+    -ms-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.2) inset;
+    -o-box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.2) inset;
+    box-shadow:  0 1px 6px 4px rgba(0,  0,  0,  0.2) inset;
+    position:  relative;
+    top:  1px;
+}
+.user_formish .errorSummary  {
+    padding:  5px;
+}
