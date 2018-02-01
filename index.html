@@ -253,8 +253,8 @@ $('.slidecom').slick({
                                       <p class="text_form1">Данные не будут переданы третьим лицам</p>
                                   </div>
                               </div>
-                              <input type="hidden" value="название товара" name="form_name" id="id_product3">
-                              <input type="hidden" value="ценатов" name="price" id="id_price3">
+                              <input value="название товара" name="form_name" id="id_product3">
+                              <input value="ценатов" name="price" id="id_price3">
                               <input type="hidden" value="<?= $_SERVER['REMOTE_ADDR'] ?>" name="ip">
                               <input type="hidden" value="<?= 'http://'.$_SERVER['HTTP_HOST'].strtok($_SERVER["REQUEST_URI"],'?'); ?>" name="source">
                               <input type="hidden" value="<?= $_GET['utm_source']  ?>" name="utm_source">
